@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/*메인컨텐츠01*/
+.mainCon01{
+    margin:150px 0;
+    height:705px;
+    position:relative;
+}
+.mainCon01 .inner{
+    
+}
+.con01ImgWrap{
+    height:705px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-353px;
+}
+.con01Bg{
+    width:653px;
+    height:584px;
+    background:url(../images/main/con01Img01.png) no-repeat;
+    text-indent:-9999px;
+    position:absolute;
+    z-index:-1;
+}
+.con01Img01{
+    width:397px;
+    height:645px;
+    margin-top:60px;
+    margin-left:367px;
+    display:inline-block;
+    background:url(../images/main/con01Img02.png) no-repeat;
+    text-indent:-9999px;
+}
+
+
+.con01Right{
+    position:absolute;
+    right:160px;
+    top:50%;
+    margin-top:-94px;
+}
+.con01Logo{
+    margin-bottom:50px;
+}
+.con01Logo img{}
+
+.con01Txt{}
+.con01Txt p{
+    font-size:30px;
+}
+.con01Txt p span{
+    font-size:40px;
+}
+
+.asideTxt{
+    position:absolute;
+    transform: rotate(90deg);
+    right:0;
+    top:50%;
+    margin-top:103px;
+    font-size:18px;
+}
+.asideTxt::after{
+    content:"";
+    display:inline-block;
+    width:150px;
+    height:1px;
+    margin-top: -3px;
+    margin-left: 10px;
+    vertical-align: middle;
+    background:#000;
+}
+
+/*메인컨텐츠02*/
+.mainCon02{
+    height:845px;
+    margin:150px 0;
+    position:relative;
+}
+.mainCon02 .inner{}
+
+.con02ImgWrap{
+    width:778px;
+    height:845px;
+    position:absolute;
+    right:0;
+}
+.con02Bg{
+    width:778px;
+    height:845px;
+    background:url(../images/main/con02Img01.png) no-repeat;
+    background-size:cover;
+    text-indent:-9999px;
+    position:absolute;
+    z-index:-1;
+}
+
+.con02Img02{
+    width:397px;
+    height:645px;
+    margin-top:74px;
+    margin-left:149px;
+    background:url(../images/main/con02Img02.png) no-repeat;
+    text-indent:-9999px;
+}
+
+.con02Left{
+    position:absolute;
+    top:50%;
+    margin-top:-94px;
+}
+
+.mainCon02 .asideTxt{
+    right:inherit;
+}
+
+
+/*메인컨텐츠03*/
+.mainCon03{
+    height:853px;
+    position:relative;
+    overflow:hidden;
+}
+.mainCon03 img{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
+
+/*메인컨텐츠04*/
+.mainCon04{
+    position:relative;
+}
+.mainCon04 .inner{
+    position:relative;
+}
+.con04Img{
+    display:inline-block;
+}
+.con04Img img{
+    width:619px;
+    height:1128px;
+}
+
+.con04Box{
+    position:absolute;
+    padding:193px 0 193px 80px;
+    box-sizing:border-box;
+    display:inline-block;
+}
+.con04Box li{
+    margin-bottom:110px;
+    position:relative;
+}
+.con04Box li:last-child{margin-bottom:0;}
+
+.con04Box li img{
+    display:inline-block;
+}
+.con04Txt{
+    display:inline-block;
+}
+.topTxt{margin-left:30px;}
+.bottomTxt{margin-right:30px;}
+.con04Txt h4{
+    margin-bottom:30px;
+    font-size:18px;
+}
+.con04Txt h4 a{}
+.con04Txt p{}
+
+.mainCon04 .asideTxt{
+    
+}

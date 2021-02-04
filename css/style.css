@@ -1,0 +1,15 @@
+@font-face {
+     font-family:"KOTRA_GOTHIC";
+     src:url("../font/KOTRA_GOTHIC (1).ttf");
+}
+@font-face {
+     font-family:"KOTRA_BOLD";
+     src:url("../font/KOTRA_BOLD (1).ttf");
+}
+h1{
+    font-family:"KOTRA_BOLD";
+}
+p,span{
+    font-family:"KOTRA_GOTHIC";
+    font-weight:100;
+}
